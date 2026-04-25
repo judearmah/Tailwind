@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorlid</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav class="fixed z-50 ">
+            <div class="w-screen mx-auto bg-black/30 p-4 ">
+                <div class="flex w-[1000px] mx-auto justify-between">
+                    <div class="flex gap-3 text-white text-md font-bold">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </div>
+                    <div class="flex text-white gap-6 text-sm font-semibold ">
+                        <div class="flex gap-3">
+                            <i class="fa-solid fa-envelopes-bulk text-xm my-auto text-green-500"></i>
+                            <p>info@docmed.com </p>
+                        </div>
+                        <div class="flex gap-3">
+                            <i class="fa-solid fa-square-phone my-auto text-green-500"></i>
+                            <p>1601-609 6780</p>
+                        </div>
+
+                    </div>
+                </div>
+        
+            </div>
+            <div class="flex w-[1000px] mx-auto justify-between border-white/30 border-b-2 pb-2 pt-6 items-center">
+                <div class="">
+                    <img src="logo.png" alt="">
+                </div>
+                <div class=" flex ">
+                    <ul class="flex gap-8 ">
+                        <li><a href="#" class="text-white hover:text-green-500 font-semibold transition-all duration-600">Home</a></li>
+                        <li><a href="#" class="text-white hover:text-green-500 font-semibold transition-all duration-600">About</a></li>
+                        <li><a href="#" class="text-white hover:text-green-500 font-semibold transition-all duration-600">Services</a></li>
+                        <li><a href="#" class="text-white hover:text-green-500 font-semibold transition-all duration-600">Blog</a></li>
+                        <li><a href="#" class="text-white hover:text-green-500 font-semibold transition-all duration-600">Pages</a></li>
+                        <li><a href="#" class="text-white hover:text-green-500 font-semibold transition-all duration-600">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="flex gap-6 items-center">
+                    <div class="">
+                        <i class="fa-solid fa-magnifying-glass text-white "></i>
+                    </div>
+                    <button class="bg-green-600 rounded-lg px-8 py-2 text-white font-semibold">
+                        Get a Quote
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="scale-x-[-1] bg-[url(copernico-p_kICQCOM4s-unsplash.jpg)] bg-cover bg-no-repeat pb-25 bg-center h-screen relative">
+        <div class="bg-gradient-to-b from-black/60 to to-white/10 inset-0 absolute "></div>
+        <div class="scale-x-[-1] w-[1000px] m-auto pt-80 z-10 space-y-4">
+            <div class="text-white">
+                <h1 class="text-6xl">Grow Big With <br>Musicol Business </h1>
+                <p class="text-xl">Nam libero tempore,cum soluta nobis est eligendi optio <br>cumque nihil impedit quo minus</p>
+            </div>
+            <div class="flex gap-6 text-white text-lg">
+                <button class="bg-green-600 rounded-lg px-8 py-2">
+                    Our Services
+                </button>
+                <button class="flex items-center gap-3 rounded-lg px-8 py-2 border hover:bg-green-600 hover:border-green-600 transition-all duration-300">
+                    <i class="fa-solid fa-play"></i>
+                    See How it Works
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Explore Section -->
+    <section class="p-30 w-[1000px] m-auto">
+        <h1 class="text-center text-4xl tracking-wide text-gray-600 pb-20 font-semibold">Explore Our Solutions</h1>
+        <div class="grid grid-cols-3 gap-4">
+            <!-- Card 1 -->
+            <div class="relative rounded-xl overflow-hidden group cursor-pointer">
+                <img src="headway-5QgIuuBxKwM-unsplash.jpg" alt="Invoicing" class="w-full h-72 object-cover brightness-75 group-hover:brightness-50 transition duration-300"/>
+                <div class="absolute inset-0 flex flex-col items-center justify-center gap-3">
+                    <i class="fa-solid fa-file-invoice text-white text-3xl"></i>
+                    <p class="text-white font-semibold text-lg">Invoicing</p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="relative rounded-xl overflow-hidden group cursor-pointer">
+                <img src="carlos-muza-hpjSkU2UYSU-unsplash.jpg" alt="Invoicing" class="w-full h-72 object-cover brightness-75 group-hover:brightness-50 transition duration-300"/>
+                <div class="absolute inset-0 flex flex-col items-center justify-center gap-3">
+                    <i class="fa-solid fa-briefcase text-white text-3xl"></i>
+                    <p class="text-white font-semibold text-lg">Business Growth</p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="relative rounded-xl overflow-hidden group cursor-pointer">
+                <img src="microsoft-365-oUbzU87d1Gc-unsplash.jpg" alt="Invoicing" class="w-full h-72 object-cover brightness-75 group-hover:brightness-50 transition duration-300"/>
+                <div class="absolute inset-0 flex flex-col items-center justify-center gap-3">
+                    <i class="fa-solid fa-lightbulb text-white text-3xl"></i>
+                    <p class="text-white font-semibold text-lg">Problem Solving</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Business Expert -->
+    <section class="flex pt-15">
+        <div class="bg-no-repeat bg-center h-[423px] w-[750px]">
+            <img src="vitaly-gariev-WAq7spN2wYk-unsplash.jpg" alt="">
+        </div>
+        <div class="items-center pl-12 pt-7">
+            <h1 class="text-4xl tracking-wide pb-10 text-gray-800">The Largest Business Expert</h1>
+            <p class="text-gray-500 tracking-wide font-light">These cases are perfectly simple and easy to distinguish. In a free hour,<br>
+            when our power of choice is untrammelled and when nothing prevents <br>
+            our being able to do what we like best.</p>
+            <div class="pt-5 space-y-3">
+                <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-circle-check text-green-500"></i>
+                    <p class="text-lg text-gray-600">Apartments frequently or motionless.</p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-circle-check text-green-500"></i>
+                    <p class="text-lg text-gray-600">Duis aute irure dolor in reprehenderit in voluptate.</p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-circle-check text-green-500"></i>
+                    <p class="text-lg text-gray-600">Voluptatem quia voluptas sit aspernatur.</p>
+                </div>
+                
+            </div>
+            <button class="pt-10">
+                <a href="#" class="bg-green-600 rounded-lg px-10 py-3 text-white font-semibold">About Us</a>
+            </button>
+        </div>
+    </section>
+    <!-- Stats section -->
+     <section class="bg-blue-300/10 p-15">
+        <div class="flex w-[1000px] m-auto justify-between font-serif ">
+            <div class="items-center text-center space-y-3">
+                <h1 class="text-6xl tracking-tight">520 +</h1>
+                <p class="tracking-tight font-mono font-bold text-gray-400">Total Projects</p>
+            </div>
+            <div class="items-center text-center space-y-3">
+                <h1 class="text-6xl tracking-tight">244</h1>
+                <p class="tracking-tight font-mono font-bold text-gray-400">On Going Projects</p>
+            </div>
+            <div class="items-center text-center space-y-3">
+                <h1 class="text-6xl tracking-tight">95%</h1>
+                <p class="tracking-tight font-mono font-bold text-gray-400">Job Success</p>
+            </div>
+        </div>
+     </section>
+     <div class="mx-30 my-40 ">
+            <div class="text-5xl text-center">Our Recent Works</div>
+            <div class="text-gray-500 text-center pt-5 text-lg"> These cases are perfectly simple and easy to distinguish. In a free <br>hour, when our power of choice is untrammelled.</div>
+            <div class="grid grid-cols-3 gap-8 mx-40 pt-10">
+                <div class="h-[400px]  bg-center bg-cover " style="background-image: url('karthick-gislen-GGi6V6KK3tg-unsplash.jpg')"></div>
+                <div class=" bg-center bg-cover " style="background-image: url('sebastian-scholz-nuki-Fh3Dtg6QX4Q-unsplash.jpg')"></div>
+                <div class=" bg-center bg-cover " style="background-image: url('henry-ascroft-7OFnb7NOvjw-unsplash.jpg')"></div>
+            </div>
+            <div class="grid grid-cols-3 gap-8 mx-40 pt-10">
+                <div class="h-[400px] grid col-span-2 bg-center bg-cover" style="background-image: url('afshin-t2y-3_PVkGcXqgQ-unsplash.jpg')"></div>
+                <div class=" bg-center bg-cover " style="background-image: url('jonas-jacobsson-VSYq9nS-fY0-unsplash.jpg')"></div>
+
+            </div>
+            <div class="text-center pt-20"><button class="border border-green-500 p-3 rounded-xl text-green-500 hover:text-black-500 px-10 hover:bg-green-500 hover:text-white transition-all duration-600">More Works</button></div>
+        </div>
+        <!-- new section -->
+
+        <div class="h-[700px] bg-center bg-cover" style="background-image: url('redd-francisco-5U_28ojjgms-unsplash.jpg')">
+            <div class=" grid grid-cols-3 gap-4 mx-40  ">
+
+                <div class="h-[300px] w-[100] border border-white my-40">
+                    <div class="my-15 mx-20 text-white text-center text-6xl">
+                        <div class="pb-5 "><i class="fa-solid fa-sliders"></i></div>
+                        <div class="text-2xl pb-5">Unlimited Control</div>
+                        <div class="text-lg text-gray-300 mx-8">These cases are perfectly simple and easy to</div>
+                    </div>
+                </div>
+                <div class="h-[300px] w-[100] border border-white my-40">
+                    <div class="my-15 mx-20 text-white text-center text-6xl">
+                        <div class="pb-5 "><i class="fa-solid fa-arrow-up-right-dots"></i></div>
+                        <div class="text-2xl pb-5">Rapid Growth</div>
+                        <div class="text-lg text-gray-300 mx-8">These cases are perfectly simple and easy to</div>
+                    </div>
+                </div>
+                <div class="h-[300px] w-[100] border border-white my-40">
+                    <div class="my-15 mx-20 text-white text-center text-6xl">
+                        <div class="pb-5 "><i class="fa-solid fa-puzzle-piece"></i></div>
+                        <div class="text-2xl pb-5">Problem Solving</div>
+                        <div class="text-lg text-gray-300 mx-8">These cases are perfectly simple and easy to</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+</html>
